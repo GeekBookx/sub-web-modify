@@ -359,6 +359,15 @@ export default {
         ],
         remoteConfig: [
           {
+            label: "自用",
+            options: [
+              {
+                label: "个人自用规则",
+                value: "https://raw.githubusercontent.com/GeekBookx/Personal-Clash-Rules/refs/heads/main/Rule"
+              }
+            ]
+          },
+          {
             label: "CM规则",
             options: [
               {
@@ -1305,4 +1314,5 @@ export default {
   }
 };
 </script>
+
 
