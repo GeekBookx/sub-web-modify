@@ -332,6 +332,7 @@ export default {
           "自动判断客户端": "auto",
         },
         shortTypes: {
+          "alphax.top": "https://links.alphaxb.top/short",
           "v1.mk": "https://v1.mk/short",
           "d1.mk": "https://d1.mk/short",
           "dlj.tf": "https://dlj.tf/short",
@@ -798,8 +799,8 @@ export default {
         sourceSubUrl: "",
         clientType: "",
         customBackend: this.getUrlParam() == "" ? "https://subapi.alphaxb.top" : this.getUrlParam(),
-        shortType: "https://v1.mk/short",
-        remoteConfig: "https://raw.githubusercontent.com/cmliu/ACL4SSR/main/Clash/config/ACL4SSR_Online.ini",
+        shortType: "https://links.alphaxb.top/short",
+        remoteConfig: "https://raw.githubusercontent.com/GeekBookx/Personal-Clash-Rules/refs/heads/main/Rule",
         excludeRemarks: "",
         includeRemarks: "",
         filename: "",
@@ -1314,5 +1315,6 @@ export default {
   }
 };
 </script>
+
 
 
